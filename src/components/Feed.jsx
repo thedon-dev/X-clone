@@ -46,7 +46,7 @@ const Feed = () => {
   ];
 
   return (
-    <div className="ml-20 lg:ml-64 flex-1 border-x border-gray-200">
+    <div className="lg:ml-64 flex-1 border-x border-gray-200">
       <div className="flex border-b border-gray-200/30 sticky top-0 z-10 backdrop-blur-sm bg-white/5 shadow-sm shadow-gray-200/20 bg-clip-padding">
         <button
           onClick={() => handleTabChange("forYou")}
@@ -125,7 +125,7 @@ const Feed = () => {
               </div>
               <p className="mt-1 mb-2">{tweet.content}</p>
 
-              <div className="flex justify-between max-w-md">
+              <div className="flex gap-10 max-w-md">
                 <div className="flex items-center gap-1 text-gray-500 hover:text-blue-500 group">
                   <div className="p-2 rounded-full group-hover:bg-blue-50">
                     <BiComment />
