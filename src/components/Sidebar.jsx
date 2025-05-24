@@ -32,10 +32,10 @@ const Sidebar = () => {
       name: "Messages",
       icon: <BiMessageSquare size={25} />,
     },
-    {
-      name: "Grok",
-      icon: "'",
-    },
+    // {
+    //   name: "Grok",
+    //   icon: "'",
+    // },
     {
       name: "Bookmarks",
       icon: <LuBookMarked size={25} />,

@@ -77,7 +77,7 @@ const Feed = () => {
             V
           </div>
         </div>
-        <div className=" w-full pe-10">
+        <div className=" w-full pe-5 lg:pe-10">
           <input
             type="text"
             placeholder="What's happening?"
@@ -116,7 +116,7 @@ const Feed = () => {
             </div>
 
             <div className="flex-1">
-              <div className="flex items-center">
+              <div className="flex items-center flex-wrap">
                 <span className="font-bold hover:underline cursor-pointer">
                   {tweet.user}
                 </span>
